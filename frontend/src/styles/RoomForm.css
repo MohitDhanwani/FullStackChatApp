@@ -1,0 +1,90 @@
+/* RoomForm.css */
+.room-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .room-form-container {
+    width: 35vw;
+    background-color: rgb(54, 45, 45);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(78, 76, 76);
+  }
+  
+  .room-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #roomName{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #password{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #description{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 4vh;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width:560px){
+
+    .room-form-overlay{
+      margin-top: 5vh;
+    }
+    .room-form-container{
+      width: 75vw;
+    }
+    .room-form-overlay h2{
+      font-size: 22px;
+    }
+  }
+  

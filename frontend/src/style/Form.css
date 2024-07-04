@@ -1,0 +1,86 @@
+.big-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    margin-top: 8vh;
+}
+.login-form{
+    margin-top: 15vh;
+}
+.toggle-heading{
+    margin-bottom: 3vh;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 35vw;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button{
+    width: 35vw;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}
+.confirmation-para{
+    margin-top: 1.5vh;
+}
+.user-card{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.main-logout-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+.logout-btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+@media (max-width:475px){
+    .form-group input{
+        width: 65vw;
+        
+    }
+}
