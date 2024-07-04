@@ -1,13 +1,13 @@
 import React from 'react'
 import "../style/navbar.css"
 import axios from 'axios'
-import Cookies from 'js-cookie';
+import { baseURL } from '../url'
 
 function Navbar() {
     const handleLogout = () => {
     
       alert("logout!")
-      axios.get('http://localhost:5050/register/logout' , {withCredentials: true})
+      axios.get(`${baseURL}/register/logout` , {withCredentials: true})
       .then(res => console.log("cookie cleared!"))
       .catch(err => console.log("err -> " , err));
   }
